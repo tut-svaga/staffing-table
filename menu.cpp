@@ -1,5 +1,5 @@
 #include "menu.h"
-#include "sort_algos.h"
+#include "sort.h"
 #include <iostream>
 #include <fstream>
 
@@ -181,3 +181,4 @@ void find_worker(std::vector<worker>& us) {
         std::cout << "Not found" << std::endl;
     }
 }
+
