@@ -1,5 +1,5 @@
-#ifndef SORT_ALGOS_H
-#define SORT_ALGOS_H
+#ifndef SORT_H
+#define SORT_H
 
 #include <vector>
 #include <functional>
@@ -12,3 +12,4 @@ void shella_sort(std::vector <worker>& us, std::function<bool(worker& , worker&)
 void bubble_sort(std::vector <worker>& us, std::function<bool(worker& , worker&)>);
 
 #endif
+
